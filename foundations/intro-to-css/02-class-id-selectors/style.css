@@ -1,1 +1,17 @@
 /* Add CSS Styling */
+.maroon {
+    background-color: rgb(216, 141, 141);
+    font-family: 'Verdana', 'DejaVu Sans', 'sans-serif';
+    font-size: large;
+}
+.largefont{
+    font-size: 24px;
+}
+#divone {
+    color: rgb(1, 106, 243);
+    font-size: 36px;
+}
+#divtwo{
+    background-color: rgb(88, 241, 147);
+    font-weight: bold;
+}
