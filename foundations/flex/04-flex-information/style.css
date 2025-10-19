@@ -24,3 +24,19 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* My solution */
+
+.wrapper {
+  display: flex;
+  gap: 52px;
+  justify-content: center;
+}
+
+.info {
+  max-width: 200px;
+}
+
+body {
+  text-align: center;
+}
