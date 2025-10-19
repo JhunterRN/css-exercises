@@ -27,16 +27,33 @@ img {
 
 /* My solution */
 
-.wrapper {
+.header {
   display: flex;
-  gap: 52px;
+  text-align: center;
+  margin-top: 20px;
+}
+.title {
+  flex-grow: 1;
   justify-content: center;
 }
 
-.info {
-  max-width: 200px;
+.wrapper {
+  display: flex;
+  margin: 0 40px;
+}
+.barberry, 
+.chili,
+.pepper, 
+.saffron {
+  margin: 10px;
+  padding: 20px; 
+  text-align: center;
 }
 
 body {
-  text-align: center;
+  margin: auto 40px;
 }
+
+/* Way overdone. Focus on solutions that influence the 
+page first. Example: centered text here can utilize the
+"body selector -> text-align: center */
