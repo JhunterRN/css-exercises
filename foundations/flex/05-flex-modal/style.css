@@ -68,7 +68,32 @@ button.cancel {
   color: royalblue;
 }
 
-/* My solution */
+/* Second solution | I cheated with the solution on this one as my previous solution was close, 
+I then read the solution and tried to code it out from memory to help me understand the rational */
+
+.modal {
+  display: flex;
+  padding: 16px;
+  gap: 16px;
+}
+.header {
+  font-weight: 700;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.icon {
+  flex-shrink: 0;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+/* My solution 
+
+This solution does not meet the standards of the Readme, I'm going to try another attempt. 
 
 .container {
   display: flex;
@@ -93,3 +118,5 @@ button.cancel {
   display: flex;
   padding: 16x;
 }
+
+ */
